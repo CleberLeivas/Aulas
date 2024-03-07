@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+
+body{
+    width: 97.6vw;
+    padding: 10px;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+.emoji{
+    background: rgb(162, 203, 216);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fonttitulo{
+    width: 60%;
+    border-bottom: 5px solid rgb(26, 150, 170);
+    padding-bottom: 10px;
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-size: 100px;
+}
+
+.fontsubtitulo{
+    width: 60%;
+    padding-bottom: 10px;
+    font-family: 'Archivo';
+    text-align: center;
+    font-size: 25px;
+}
+
+.superior{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.inferior{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.titulo{
+    background: rgb(162, 203, 216);
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.orientacaoText{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(148, 41, 167);
+    font-weight: 900;
+    color: white;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.orientacaoRes{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(90, 11, 104);
+    font-weight: 900;
+    color: white;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: auto;
+    width: auto;
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: dodgerblue;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    opacity: 0.8;
+    font-weight: 900;
+    color: white;
+}
+.btn:hover{
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+    font-weight: 900;
+}

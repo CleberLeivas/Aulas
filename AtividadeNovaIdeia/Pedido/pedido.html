@@ -9,24 +9,40 @@
 <body>
     <header>
         <h1>AquaStyle</h1>
+        <br>
         <nav>
             <ul>
                 <li><a href="../Inicio/index.html">Início</a></li>
                 <li><a href="../Exibicao/masculino.html">Moda Masculina</a></li>
                 <li><a href="../Exibicao/feminino.html">Moda Feminina</a></li>
                 <li><a href="../Exibicao/acessorios.html">Acessórios</a></li>
-                <li><a href="../Pedido/pedido.html">Pedido</a></li>
+                <li><a href="../Pedido/pedido.html">Inscreva-se</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h2>Faça seu Pedido</h2>
-        <p>Preencha o formulário abaixo para fazer seu pedido:</p>
+        <h2>Inscreva-se</h2>
+        <p>Preencha o formulário abaixo para receber nossas ofertas:</p>
+        <br>
         <form>
-            <!-- Seus campos de formulário aqui -->
+            <div class="nomeTelefone">
+                <label for="nome">Nome:</label>
+                <div>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+                <label for="telefone">Telefone:</label>
+                <div>
+                    <input type="tel" id="telefone" name="telefone" pattern="[0-9]{10,11}" placeholder="Digite apenas números" required>
+                </div>
+            </div>
+            <br>
+            <div>
+                <button class="button-15" type="submit">Enviar</button>
+            </div>
         </form>
     </main>
+    
 
     <footer>
         <p>&copy; 2024 AquaStyle</p>
